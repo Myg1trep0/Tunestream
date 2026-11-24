@@ -1,8 +1,16 @@
-# React + Vite
+# Client Web Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web application for playing audio streams with synchronized text display.
 
-Currently, two official plugins are available:
+## Setup & Running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+## Features
+- Audio playback control (play, pause, next, previous, seek)
+- Synchronized time-aligned text scrolling
+- Responsive layout with Tailwind CSS
+- User authentication and persistent sessions
